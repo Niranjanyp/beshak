@@ -36,7 +36,7 @@
 
           <div class="flex items-center gap-3">
             <img
-              src="../assets/google.png"
+              src="../assets/Google.png"
               size="30px"
               alt="google"
               class="w-4 h-4"
