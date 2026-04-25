@@ -84,6 +84,7 @@
               alt="google"
               class="w-5 h-5 object-contain"
             />
+            <!--  -->
 
             <span class="text-sm font-semibold text-gray-900">4.9</span>
 
