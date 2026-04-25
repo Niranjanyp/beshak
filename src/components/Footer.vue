@@ -4,7 +4,6 @@
       <div
         class="flex flex-col md:flex-row justify-between items-center text-sm text-gray-400 gap-4"
       >
-        <!-- flex-row -->
         <p>© 2026 Beshak. All rights reserved.</p>
 
         <div class="flex gap-6">
