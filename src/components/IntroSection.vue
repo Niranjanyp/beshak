@@ -80,7 +80,7 @@
             class="flex md:hidden w-full items-center justify-center gap-2 mt-2 mb-2 text-center"
           >
             <img
-              src="../assets/google.png"
+              src="../assets/Google.png"
               alt="google"
               class="w-5 h-5 object-contain"
             />
