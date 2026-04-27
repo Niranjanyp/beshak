@@ -112,7 +112,8 @@
         </div>
       </div>
 
-      <img src="../assets/HeroImg.png" />
+      <img class="hidden md:block" src="../assets/HeroImg.png" />
+      <img class="md:hidden" src="../assets/HeroImgSm.png" />
     </div>
   </section>
 </template>
