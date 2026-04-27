@@ -1,7 +1,7 @@
 <template>
   <section class="bg-white border-t border-gray-200">
-    <div class="max-w-7xl mx-auto py-7">
-      <div class="md:hidden font-bold text-lg text-center mb-4">
+    <div class="max-w-[1500px] mx-auto py-7">
+      <div class="md:hidden font-bold text-[24px] text-center mb-4">
         Why trust Beshak?
       </div>
 
@@ -9,7 +9,7 @@
         <div
           ref="slider"
           @scroll="onScroll"
-          class="flex overflow-x-auto scroll-smooth snap-x snap-mandatory gap-4 pb-4"
+          class="flex overflow-x-auto scroll-smooth snap-x snap-mandatory gap-4 px-4 pb-4 scrollbar-hide"
         >
           <div
             v-for="(group, index) in groupedFeatures"
@@ -23,10 +23,10 @@
               class="w-1/2 bg-[#e0f8e8] p-5 rounded text-center"
             >
               <img :src="item.icon" class="w-7 h-7 mx-auto mb-3" />
-              <p class="font-semibold text-xs text-black-900">
+              <p class="font-bold text-[14px] text-black-900">
                 {{ item.title }}
               </p>
-              <p class="text-xs text-black-500 mt-1">
+              <p class="text-[12px] text-black-500 text-regular mt-1">
                 {{ item.desc }}
               </p>
             </div>
@@ -46,10 +46,10 @@
       <div class="hidden md:grid grid-cols-4 text-center mt-8">
         <div class="flex flex-col items-center px-6 relative">
           <img src="../assets/Features/ScaleImg.png" class="w-7 h-7 mb-4" />
-          <p class="font-semibold text-sm text-gray-900">
+          <p class="font-bold text-[16px] text-[#18181B]">
             India's only 100% Unbiased platform
           </p>
-          <p class="text-sm text-black-500 mt-1">
+          <p class="text-[14px] text-black-500 text-regular mt-1">
             No ads/commissions from insurers
           </p>
 
@@ -63,10 +63,10 @@
             src="../assets/Features/GraduationImg.png"
             class="w-7 h-7 mb-4"
           />
-          <p class="font-semibold text-sm text-gray-900">
+          <p class="font-bold text-[16px] text-[#18181B]">
             Guidance from Real Experts
           </p>
-          <p class="text-sm text-black-500 mt-1">
+          <p class="text-[14px] text-black-500 mt-1">
             Not salesmen. Not call centre agents
           </p>
 
@@ -77,10 +77,10 @@
 
         <div class="flex flex-col items-center px-6 relative">
           <img src="../assets/Features/RestrictImg.png" class="w-7 h-7 mb-4" />
-          <p class="font-semibold text-sm text-gray-900">
+          <p class="font-bold text-[16px] text-[#18181B]">
             Zero Charge. Zero Spam
           </p>
-          <p class="text-sm text-black-500 mt-1">
+          <p class="text-[14px] text-black-500 mt-1">
             Pay nothing for the Consultation
           </p>
 
@@ -91,8 +91,8 @@
 
         <div class="flex flex-col items-center px-6">
           <img src="../assets/Features/SmileyImg.png" class="w-7 h-7 mb-4" />
-          <p class="font-semibold text-sm text-gray-900">32K+ Happy Users</p>
-          <p class="text-sm text-black-500 mt-1">Since 2020</p>
+          <p class="font-bold text-[16px] text-[#18181B]">32K+ Happy Users</p>
+          <p class="text-[14px] text-black-500 mt-1">Since 2020</p>
         </div>
       </div>
     </div>

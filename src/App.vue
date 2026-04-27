@@ -64,4 +64,43 @@ onUnmounted(() => {
 body {
   font-family: "Outfit", sans-serif !important;
 }
+.fontsize8px {
+  font-size: 8px !important;
+}
+.fontsize9px {
+  font-size: 9px !important;
+}
+.fontsize10px {
+  font-size: 10px !important;
+}
+.fontsize11px {
+  font-size: 11px !important;
+}
+.fontsize12px {
+  font-size: 12px !important;
+}
+.fontsize14px {
+  font-size: 14px !important;
+}
+.fontsize15px {
+  font-size: 15px !important;
+}
+.fontsize16px {
+  font-size: 16px !important;
+}
+.fontsize17px {
+  font-size: 17px !important;
+}
+.fontsize18px {
+  font-size: 18px !important;
+}
+.fontsize20px {
+  font-size: 20px !important;
+}
+.fontsize32px {
+  font-size: 32px !important;
+}
+.fontsize60px {
+  font-size: 60px !important;
+}
 </style>
