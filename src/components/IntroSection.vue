@@ -37,7 +37,7 @@
           class="mt-8 flex flex-col sm:flex-row gap-4 items-start sm:items-center"
         >
           <button
-            class="hidden md:flex bg-gradient-to-r from-[#1f6a3a] to-[#2fa35e] hover:from-[#1a5a32] hover:to-[#278a4f] text-white rounded-lg shadow-md hover:shadow-lg hover:-translate-y-[1px] px-12 py-3 flex-col items-center justify-center cursor-pointer transition"
+            class="hidden md:flex bg-gradient-to-r from-[#1f6a3a] to-[#2fa35e] hover:from-[#1a5a32] hover:to-[#278a4f] text-white rounded-lg shadow-md mb-2 hover:shadow-lg hover:-translate-y-[1px] px-12 py-3 flex-col items-center justify-center cursor-pointer transition"
           >
             <span
               class="text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px] font-semibold leading-tight"
@@ -101,7 +101,7 @@
               <Star
                 v-for="i in 5"
                 :key="i"
-                class="w-4 h-4 text-green-500 fill-[#1f6b3b]"
+                class="w-4 h-4 text-green-500 fill-[#33ab5f]"
               />
             </div>
 
@@ -112,7 +112,7 @@
         </div>
       </div>
 
-      <img class="hidden md:block" src="../assets/HeroImg1.png" />
+      <img class="hidden md:block" src="../assets/HeroImg2.png" />
       <img class="md:hidden" src="../assets/HeroImgSm.png" />
     </div>
   </section>
