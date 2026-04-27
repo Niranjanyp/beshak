@@ -101,7 +101,7 @@
               <Star
                 v-for="i in 5"
                 :key="i"
-                class="w-4 h-4 text-green-500 fill-[#33ab5f]"
+                class="w-4 h-4 text-green-500 fill-[#1f6b3b]"
               />
             </div>
 
@@ -112,7 +112,7 @@
         </div>
       </div>
 
-      <img class="hidden md:block" src="../assets/HeroImg.png" />
+      <img class="hidden md:block" src="../assets/HeroImg1.png" />
       <img class="md:hidden" src="../assets/HeroImgSm.png" />
     </div>
   </section>
