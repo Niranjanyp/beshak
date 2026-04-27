@@ -194,7 +194,7 @@
 
           <div class="xs:text-center md:text-left md:px-10">
             <h3
-              class="text-[24px] md:text-[40px] font-bold text-[#18181B] mb-2"
+              class="text-[24px] md:text-[40px] font-bold text-[#18181B] mb-2 ml-[-5px]"
             >
               Handpicked, not hard sold
             </h3>

@@ -61,7 +61,7 @@
         </p>
 
         <p
-          class="md:hidden text-[14px] font-[700] text-[#ffffff] font-bold mb-4"
+          class="md:hidden text-[14px] font-[700] text-[#ffffff] font-bold mb-8"
         >
           Each plan comes with a basic life cover (usually around 10x your
           annual premium). It's not a replacement for term insurance, but it's

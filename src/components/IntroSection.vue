@@ -1,5 +1,7 @@
 <template>
-  <section class="pt-30 bg-gradient-to-b from-white via-[#eaf7ef] to-[#cfe9da]">
+  <section
+    class="pt-21 md:pt-32 bg-gradient-to-b from-white via-[#eaf7ef] to-[#cfe9da]"
+  >
     <div
       class="max-w-8xl mx-auto md:px-12 px-8 grid md:grid-cols-2 items-center gap-12 md:gap-24"
     >
@@ -11,7 +13,7 @@
         </p>
 
         <p
-          class="block md:hidden text-[12px] text-[#7C3AED] text-center font-semibold mb-2"
+          class="block md:hidden text-[12px] text-[#7C3AED] text-center font-semibold mb-1"
         >
           NEED ASSISTANCE WITH A CLAIM?
         </p>
